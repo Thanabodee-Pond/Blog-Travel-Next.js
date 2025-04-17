@@ -2,8 +2,13 @@ import { NextResponse } from 'next/server'
 import { prisma } from '@/lib/prisma'
 
 export async function GET(
+<<<<<<< HEAD
  _req: Request,
  { params }: { params: { id: string } }
+=======
+  _req: Request,
+{ params }: { params: { id: string } }
+>>>>>>> 5814d24a406fd89b64e9c42c79f82ac4f9c6b0b0
 ) {
  const attractionId = parseInt(params.id);
 
@@ -12,7 +17,11 @@ export async function GET(
  }
 
  const attraction = await prisma.attraction.findUnique({
+<<<<<<< HEAD
   where: { id: attractionId },
+=======
+ where: { id: attractionId },
+>>>>>>> 5814d24a406fd89b64e9c42c79f82ac4f9c6b0b0
  })
 
  if (!attraction) {
@@ -43,7 +52,12 @@ export async function PUT(
 }
 
 export async function DELETE(
+<<<<<<< HEAD
  _req: Request,  { params }: { params: { id: string } }
+=======
+ _req: Request,
+ { params }: { params: { id: string } }
+>>>>>>> 5814d24a406fd89b64e9c42c79f82ac4f9c6b0b0
 ) {
  const attractionId = parseInt(params.id);
 
