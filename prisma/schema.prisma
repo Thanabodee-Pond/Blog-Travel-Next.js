@@ -7,10 +7,10 @@ datasource db {
   url      = env("DATABASE_URL")
 }
 
-model Attraction {
+model attraction {
   id         Int     @id @default(autoincrement())
   name       String
-  detail     String
+  detail     String? @db.Text
   coverImage String
   latitude   Float
   longitude  Float
