@@ -4,40 +4,58 @@ import { prisma } from '@/lib/prisma'
 
 export async function GET(
   _req: Request,
-  { params }: { params: { id: string } }
+{ params }: { params: { id: string } }
 ) {
-  const attraction = await prisma.attraction.findUnique({
-    where: { id: parseInt(params.id) },
-  })
+ const attractionId = parseInt(params.id);
 
-  if (!attraction) {
-    return NextResponse.json({ error: 'Not found' }, { status: 404 })
-  }
+ if (isNaN(attractionId)) {
+  return NextResponse.json({ error: 'Invalid ID' }, { status: 400 });
+ }
 
-  return NextResponse.json(attraction)
+ const attraction = await prisma.attraction.findUnique({
+ where: { id: attractionId },
+ })
+
+ if (!attraction) {
+  return NextResponse.json({ error: 'Not found' }, { status: 404 })
+ }
+
+ return NextResponse.json(attraction)
 }
 
 export async function PUT(
-  req: Request,
-  { params }: { params: { id: string } }
+ req: Request,
+ { params }: { params: { id: string } }
 ) {
-  const data = await req.json()
+ const attractionId = parseInt(params.id);
 
-  const updated = await prisma.attraction.update({
-    where: { id: parseInt(params.id) },
-    data,
-  })
+ if (isNaN(attractionId)) {
+  return NextResponse.json({ error: 'Invalid ID' }, { status: 400 });
+ }
 
-  return NextResponse.json(updated)
+ const data = await req.json()
+
+ const updated = await prisma.attraction.update({
+  where: { id: attractionId },
+  data,
+ })
+
+ return NextResponse.json(updated)
 }
 
 export async function DELETE(
-  _req: Request,
-  { params }: { params: { id: string } }
+ _req: Request,
+ { params }: { params: { id: string } }
 ) {
-  await prisma.attraction.delete({
-    where: { id: parseInt(params.id) },
-  })
+ const attractionId = parseInt(params.id);
 
-  return NextResponse.json({ message: 'Deleted' })
+ if (isNaN(attractionId)) {
+  return NextResponse.json({ error: 'Invalid ID' }, { status: 400 });
+ }
+
+ await prisma.attraction.delete({
+  where: { id: attractionId },
+ })
+
+ return NextResponse.json({ message: 'Deleted' })
 }
