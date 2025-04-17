@@ -1,36 +1,43 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Blog-Travel-Next.js - Full-Stack Travel Blog (CRUD Web App Next.js + Prisma)
 
-## Getting Started
+[![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)](https://nextjs.org/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
+[![Prisma](https://img.shields.io/badge/Prisma-3982C0?style=for-the-badge&logo=prisma&logoColor=white)](https://www.prisma.io/)
+[![Shadcn UI](https://img.shields.io/badge/Shadcn_UI-000000?style=for-the-badge&logo=shadcn-ui&logoColor=white)](https://ui.shadcn.com/)
 
-First, run the development server:
+**Overview:**
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+A full-stack travel blog application built with **TypeScript** and Next.js, demonstrating the implementation of Create, Read, Update, and Delete (CRUD) operations for managing travel-related content. This project showcases proficiency in type-safe JavaScript development, modern web development practices, and key technologies.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+**Key Features:**
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+* **Complete CRUD Functionality:** Enables users to create, view, modify, and delete travel blog posts, demonstrating core web application development skills.
+* **Next.js Framework:** Utilizes Next.js for server-side rendering (SSR) or static site generation (SSG), optimized performance, and routing capabilities, highlighting expertise in modern React frameworks.
+* **TypeScript:** Developed using TypeScript, emphasizing code maintainability, scalability, and type safety.
+* **Prisma ORM:** Integrates Prisma for efficient and type-safe database interactions, showcasing experience in database management and ORM usage.
+* **Shadcn UI:** Implements a modern and user-friendly interface using Shadcn UI, built with Tailwind CSS, demonstrating skills in UI development and component-based design.
+* **Local Development:** Configured for local development using MAMP, indicating understanding of the full development lifecycle.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+**Technologies Used:**
 
-## Learn More
+* Next.js
+* React
+* **TypeScript**
+* Prisma
+* Shadcn UI
+* Tailwind CSS
+* MAMP (for local development)
 
-To learn more about Next.js, take a look at the following resources:
+**Skills Demonstrated:**
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+* Full-Stack Development (Frontend with Next.js/TypeScript, Backend concepts)
+* CRUD Operations Implementation
+* Database Management with Prisma ORM
+* UI/UX Development with Shadcn UI and Tailwind CSS
+* Server-Side Rendering (SSR) or Static Site Generation (SSG)
+* **Type-Safe Development with TypeScript**
+* Local Development Environment Setup
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+**Repository Link:** [https://github.com/Thanabodee-Pond/Blog-Travel-Next.js](https://github.com/Thanabodee-Pond/Blog-Travel-Next.js)
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+This project highlights my ability to build a functional and type-safe web application with essential features using modern JavaScript/TypeScript technologies and best practices.
