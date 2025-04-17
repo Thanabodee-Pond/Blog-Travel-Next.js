@@ -3,8 +3,8 @@ import { NextResponse } from 'next/server'
 import { prisma } from '@/lib/prisma'
 
 export async function GET(
-  _req: Request,
-{ params }: { params: { id: string } }
+ _req: Request,
+ { params }: { params: { id: string } }
 ) {
  const attractionId = parseInt(params.id);
 
@@ -13,7 +13,7 @@ export async function GET(
  }
 
  const attraction = await prisma.attraction.findUnique({
- where: { id: attractionId },
+  where: { id: attractionId },
  })
 
  if (!attraction) {
