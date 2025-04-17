@@ -1,4 +1,4 @@
-# Blog-Travel-Next.js - Full-Stack Travel Blog (CRUD Web App Next.js + Prisma)
+# Blog-Travel-Next.js - Full-Stack (CRUD Web App Next.js + Prisma)
 
 [![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)](https://nextjs.org/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
@@ -38,6 +38,17 @@ A full-stack travel blog application built with **TypeScript** and Next.js, demo
 * **Type-Safe Development with TypeScript**
 * Local Development Environment Setup
 
-**Repository Link:** [https://github.com/Thanabodee-Pond/Blog-Travel-Next.js](https://github.com/Thanabodee-Pond/Blog-Travel-Next.js)
+**📸 Screenshots & UI Flow**
+
+**Homepage:**
+<p align="left"> <img src="assets/images/Create Next App_page-0001.jpg" width="250" /> </p>
+<p align="left"> <img src="assets/images/Create Next App_page-0002.jpg" width="250" /> </p>
+<p align="left"> <img src="assets/images/Create Next App_page-0003.jpg" width="250" /> </p>
+
+**Create New Post:**
+<p align="left"> <img src="assets/images/Create Next App2_add new.jpg" width="250" /> </p>
+
+**Edit Post Page:**
+<p align="left"> <img src="assets/images/Create Next App edit.jpg" width="250" /> </p>
 
 This project highlights my ability to build a functional and type-safe web application with essential features using modern JavaScript/TypeScript technologies and best practices.
