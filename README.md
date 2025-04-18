@@ -52,4 +52,7 @@ A full-stack travel blog application built with **TypeScript** and Next.js, demo
 **Edit Post Page:**
 <p align="left"> <img src="assets/images/Create Next App edit.jpg" width="250" /> </p>
 
+**Video Demonstration:**</br>
+[Watch the video demonstration on Dropbox](https://www.dropbox.com/scl/fi/d4oo67i6r87dw3elveya3/Screen-Recording-2025-04-18-151031.mp4?rlkey=iq0jaxcwug31okdbmf8271gko&st=q0p2132w&dl=0)
+
 This project highlights my ability to build a functional and type-safe web application with essential features using modern JavaScript/TypeScript technologies and best practices.
